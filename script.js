@@ -6,7 +6,7 @@ const copyAnimate = () =>
   setTimeout(
     () =>
     {
-      copy.style.["animation-name"] = "copied";
+      copy.style["animation-name"] = "copied";
     }
     ,1)
 }
