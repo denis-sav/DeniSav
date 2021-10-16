@@ -135,8 +135,11 @@ a:link, a:visited, a:hover, a:active
 #projects a
 {
   display: block;
-  padding: 1rem;
   color: gray;
+}
+#more_work
+{
+  padding: 1.5rem;
 }
 #contact
 {
