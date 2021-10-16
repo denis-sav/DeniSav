@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, html
+{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+#svg
+{
+  //background-color: pink;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+#tooltip
+{
+  text-align: center;
+  background-color: black;
+  //min-width: 10%;
+  //min-height: 10%;
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0;
+  overflow: hidden;
+  color: white;
+  padding: 1%;
+}
